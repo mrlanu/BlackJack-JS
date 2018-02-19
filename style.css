@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.wraper {
+    position: absolute;
+    left: 38%;
+    top: 30%;
+    width: 400px;
+    height: 220px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.container_1 {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    width: 100px;
+    
+}
+
+.container_2 {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    width: 100px;
+    
+}
+
+.container_3 {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    width: 100px;
+    
+}
+
+.container_4 {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    width: 100px;
+    
+}
+
+.player-score {
+    position: absolute;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 100;
+    color: #EB4D4D;
+    top: 75%;
+    left: 85%;
+}
+
+button {
+    position: absolute;
+    width: 200px;
+    left: 20%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover { font-weight: 600; }
+button:hover i { margin-right: 20px; }
+
+button:focus {
+    outline: none;
+}
+
+.btn-roll { top: 80%;}
