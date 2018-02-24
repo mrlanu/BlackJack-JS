@@ -103,7 +103,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
             if (score <= 21) {
                 document.querySelector('.player-score').textContent = score;
             }else {
-                document.querySelector('.player-score').textContent = 'Game Over';
+                document.querySelector('.player-score').textContent = 'BUST';
                 isGameActive = false;
             }
                 cardsArray.splice(randomCard, 1);

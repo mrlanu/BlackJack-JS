@@ -6,7 +6,11 @@
 }
 
 body{
-   
+   font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
 }
 
 .container {
@@ -78,23 +82,66 @@ body{
 }
 
 .buttons {
-    position: absolute;
+    position: relative;
     top: 300px;
     left: 100px;
-}
-
-.player-score {
-    position: absolute;
-    top: 300px;
-    left: 300px;
-    color: white;
 }
 
 .players_hand {
     position: absolute;
     top: 50px;
     left: 220px;
-    font-size: 20px;
-    font-weight: 100;
+}
+
+.player-score {
+    position: absolute;
+    top: 355px;
+    left: 400px;
     color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover { font-weight: 600; }
+button:hover i { margin-right: 20px; }
+
+button:focus {
+    outline: none;
+}
+
+.btn-new-game { 
+    top: 355px;
+    left: 780px;
+}
+.btn-roll { 
+    top: 355px;
+    left: 20px;
+}
+.btn-hold { top: 467px;}
+
+i {
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 32px;
+    line-height: 1;
+    vertical-align: text-top;
+    margin-top: -4px;
+    transition: margin 0.3s;
 }
